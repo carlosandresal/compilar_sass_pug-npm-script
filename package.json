@@ -1,0 +1,26 @@
+{
+  "name": "compilando_sass_pug-npm-script",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pug": "pug -w -P src/index.pug --out dist/",
+    "sass": "node-sass -w --output-style expanded -o dist/css src/scss"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/studioArtbliss/compilar_sass_pug-npm-script.git"
+  },
+  "keywords": [],
+  "author": "Carlos Andrés Alzate <un.artbliss@gmail.com> (https://studioartbliss.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/studioArtbliss/compilar_sass_pug-npm-script/issues"
+  },
+  "homepage": "https://github.com/studioArtbliss/compilar_sass_pug-npm-script#readme",
+  "devDependencies": {
+    "node-sass": "^4.9.0",
+    "pug": "^2.0.3"
+  }
+}
