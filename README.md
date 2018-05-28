@@ -3,6 +3,8 @@
 > esta es un proyecto simple con el cual se puede usar y compilar Pug y Sass y al mismo tiempo refrescar el navegador, solo utilizando un par de script en npm.
 
 ## Temas
+- Introducción a [pug](https://pugjs.org/api/getting-started.html)
+- Introducción a [sass](https://sass-lang.com/)
 
 ## Requisitos
 
